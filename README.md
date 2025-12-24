@@ -102,3 +102,56 @@ Create a `.env` file to store your API keys for financial data providers and oth
 Run the Next.js server and the backend agent services to begin autonomous market monitoring and reporting.
 
 -----
+
+To pull everything together for **saadsalmanakram/Fin-Agent**, here is the final, comprehensive directory structure. This includes the multi-agent Python scripts, the tRPC-powered backend, the Next.js frontend, and the automated CI/CD configurations.
+
+### 📂 Project Structure
+
+```text
+Fin-Agent/
+├── .github/
+│   └── workflows/
+│       └── ci.yml                # GitHub Actions pipeline
+├── docker-compose.yml            # Qdrant, MongoDB, & Time-Series DB
+├── .env                          # API Keys (OpenAI, Qdrant, etc.)
+├── .gitignore
+├── backend/
+│   ├── src/
+│   │   ├── agents/               # Python Multi-Agent Logic
+│   │   │   ├── data_retrieval.py
+│   │   │   ├── sentiment_analysis.py
+│   │   │   ├── vector_storage.py # Qdrant / RAG logic
+│   │   │   ├── modeling_agent.py # Prediction logic
+│   │   │   ├── reporting.py      # Markdown synthesis
+│   │   │   └── tests/            # Pytest suite for CI
+│   │   ├── routers/              # tRPC Router definitions
+│   │   │   ├── index.ts          # Root router
+│   │   │   ├── sentiment.ts
+│   │   │   ├── memory.ts
+│   │   │   └── orchestrator.ts   # Master agent coordinator
+│   │   ├── models/               # MongoDB Schemas
+│   │   ├── trpc.ts               # tRPC initialization
+│   │   └── index.ts              # Express server entry
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── requirements.txt          # Python deps (pandas, openai, etc.)
+├── frontend/
+│   ├── src/
+│   │   ├── app/                  # Next.js App Router
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx          # Main Dashboard UI
+│   │   ├── components/           # UI Components
+│   │   │   ├── RiskGauge.tsx     
+│   │   │   ├── SentimentCard.tsx
+│   │   │   └── ReportMarkdown.tsx
+│   │   ├── utils/
+│   │   │   └── trpc.ts           # tRPC Client & Hooks
+│   │   └── styles/
+│   ├── package.json
+│   ├── tailwind.config.js
+│   └── tsconfig.json
+└── data/                         # Local volume for DB persistence
+
+```
+
+---
