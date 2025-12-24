@@ -56,13 +56,3 @@ Create a `.env` file to store your API keys for financial data providers and oth
 Run the Next.js server and the backend agent services to begin autonomous market monitoring and reporting.
 
 -----
-
-## 🤝 Contributing
-
-We welcome contributions from financial analysts, data scientists, and developers. Please read our [CONTRIBUTING.md](https://www.google.com/search?q=https://github.com/saadsalmanakram/Fin-Agent/blob/main/CONTRIBUTING.md) for details on submitting pull requests.
-
------
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=https://github.com/saadsalmanakram/Fin-Agent/blob/main/LICENSE) file for details.
