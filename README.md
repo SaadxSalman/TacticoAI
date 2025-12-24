@@ -15,13 +15,14 @@ A multi-agent system that autonomously monitors financial markets, reads news ar
 
 -----
 
-## ⚙️ Tech Stack
+## 🛠️ Tech Stack
 
-  * **Frontend:** [Next.js](https://nextjs.org/)
-  * **Communication:** tRPC
-  * **Core Analysis Model:** Massive language model
-  * **Vector Search:** [Qdrant](https://qdrant.tech/)
-  * **Time-Series Database:** Custom time-series database
+* **Frontend:** [Next.js](https://nextjs.org/) (App Router), [Tailwind CSS](https://tailwindcss.com/), [TypeScript](https://www.typescriptlang.org/)
+* **Backend (MERN):** [MongoDB](https://www.mongodb.com/), [Express.js](https://expressjs.com/), [React](https://react.dev/) (via Next.js), [Node.js](https://nodejs.org/)
+* **Communication:** tRPC
+* **Core Analysis Model:** Massive language model
+* **Vector Search:** [Qdrant](https://qdrant.tech/)
+* **Time-Series Database:** Custom time-series database
 
 -----
 
