@@ -1,1 +1,0 @@
-"""TacticoAI - Multi-Modal Agentic RAG for Sports Analytics"""

@@ -1,1 +1,0 @@
-"""TacticoAI Ingestion Module - Data ingestion and indexing pipelines."""
