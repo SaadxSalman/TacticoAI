@@ -1,0 +1,51 @@
+# See https://github.com/github/gitignore/blob/main/Python.gitignore for more details
+
+# Dependencies
+.env
+*.pyc
+__pycache__/
+*.pyw
+.env.local
+.env.*.local
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.git-credentials/
+.pypoetry/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swa
+*~
+
+# databases
+*.db
+*.sqlite3
+*.sqlite
+
+# Docker
+.dockerinit
+.dockerignore
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db

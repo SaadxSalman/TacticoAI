@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1020;
+  --card: #141a2e;
+  --accent: #3b82f6;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  background: #0b1020;
+  color: #e5e7eb;
+}
+
+.card {
+  background: #141a2e;
+  border: 1px solid #1f2a44;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
