@@ -260,4 +260,4 @@ Backend: containerize with Docker. Frontend: Vercel (set NEXT_PUBLIC_API_URL).
 
 ## Contributing
 
-Fork, branch, conventional commits, open PR.
+Fork, branch, conventional commits, open PR..
